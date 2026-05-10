@@ -112,7 +112,7 @@ streamlit run app.py
 
 # 📷 Application Preview
 
-<img width="100%" alt="Heart Disease Prediction App" src="YOUR_SCREENSHOT_LINK">
+https://heartdiseaseprediction-sypr8fdsupcejoxrru8c6b.streamlit.app/
 
 ---
 
