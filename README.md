@@ -2,42 +2,98 @@
 
 A Machine Learning based web application that predicts the risk of heart disease using patient health data.
 
-Built using:
-- Python
-- Scikit-learn
-- Streamlit
-- Pandas
-- NumPy
+This project demonstrates a complete end-to-end Machine Learning workflow including:
 
----
-
-# 🚀 Features
-
-- Predicts heart disease risk
-- Interactive Streamlit web app
-- Clean and modern UI
-- Machine Learning classification model
-- Data preprocessing and scaling
-- Real-time prediction
-
----
-
-# 📊 Machine Learning Workflow
-
-- Data Collection
-- Data Cleaning
-- Exploratory Data Analysis (EDA)
+- Data Analysis
+- Data Preprocessing
 - Feature Engineering
-- Feature Scaling
 - Model Training
 - Model Evaluation
 - Deployment using Streamlit
 
 ---
 
-# 🤖 Algorithms Used
+# 🚀 Live Demo
+
+🔗 Streamlit App:
+
+[Heart Disease Prediction App](https://heartdiseaseprediction-sypr8fdsupcejoxrru8c6b.streamlit.app/?utm_source=chatgpt.com)
+
+---
+
+# 📌 Project Overview
+
+The main goal of this project is to predict whether a person is at high risk or low risk of heart disease based on medical attributes.
+
+The application takes user input such as:
+- Age
+- Blood Pressure
+- Cholesterol
+- Chest Pain Type
+- ECG Results
+- Heart Rate
+- Exercise Angina
+- ST Depression
+- and other health parameters
+
+and predicts the heart disease risk using a trained Machine Learning model.
+
+---
+
+# 📊 Exploratory Data Analysis (EDA)
+
+The notebook includes:
+- Data Cleaning
+- Missing Value Handling
+- Data Visualization
+- Correlation Analysis
+- Feature Encoding
+- Feature Scaling
+
+Libraries used:
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+
+---
+
+# 🤖 Machine Learning Model
+
+Algorithm Used:
 
 - K-Nearest Neighbors (KNN)
+
+Model pipeline includes:
+- Train-Test Split
+- Standard Scaling
+- Model Training
+- Prediction
+- Model Evaluation
+
+---
+
+# 🖥️ Streamlit Web Application
+
+Features:
+- Interactive User Interface
+- Real-time Prediction
+- Modern UI Design
+- Easy User Input
+- Instant Result Display
+
+---
+
+# 🛠️ Technologies Used
+
+- Python
+- Streamlit
+- Scikit-learn
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Joblib
 
 ---
 
@@ -47,12 +103,13 @@ Built using:
 Heart_Disease_Prediction/
 │
 ├── app.py
-├── HEART_EDA.ipynb
+├── HeartDiseases.ipynb
 ├── KNN_heart.pkl
 ├── scaler.pkl
 ├── columns.pkl
 ├── requirements.txt
 ├── README.md
+├── LICENSE
 ```
 
 ---
@@ -83,47 +140,14 @@ streamlit run app.py
 
 ---
 
-# 📌 Input Features
-
-- Age
-- Sex
-- Chest Pain Type
-- Blood Pressure
-- Cholesterol
-- Fasting Blood Sugar
-- ECG Results
-- Maximum Heart Rate
-- Exercise-Induced Angina
-- Oldpeak
-- ST Slope
-
----
-
-# 🖥️ Technologies Used
-
-- Python
-- Streamlit
-- Scikit-learn
-- Pandas
-- NumPy
-- Joblib
-
----
-
-# 📷 Application Preview
-
-https://heartdiseaseprediction-sypr8fdsupcejoxrru8c6b.streamlit.app/
-
----
-
 # 📈 Future Improvements
 
-- Add multiple ML algorithms
-- Improve model accuracy
-- Add probability score
-- Deploy online
-- Add visualization dashboard
-- Add PDF report generation
+- Add Multiple ML Algorithms
+- Improve Model Accuracy
+- Add Prediction Probability
+- Add Visualization Dashboard
+- Add Downloadable Reports
+- Deploy Advanced Version
 
 ---
 
@@ -132,4 +156,4 @@ https://heartdiseaseprediction-sypr8fdsupcejoxrru8c6b.streamlit.app/
 Shreya Rana
 
 GitHub:
-https://github.com/SHREYA-RANA11
+[SHREYA-RANA11 GitHub Profile](https://github.com/SHREYA-RANA11?utm_source=chatgpt.com)
